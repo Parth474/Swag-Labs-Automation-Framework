@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-02T11:16:30 IST" name="CrossBrowserSuite" finished-at="2026-03-02T11:18:03 IST" duration-ms="92607">
+    <groups>
+      <group name="functional">
+        <method signature="LoginTest.validLogin(java.lang.String)[pri:1, instance:tests.LoginTest@397fbdb]" name="validLogin" class="tests.LoginTest"/>
+      </group> <!-- functional -->
+      <group name="regression">
+        <method signature="LoginTest.validLogin(java.lang.String)[pri:1, instance:tests.LoginTest@397fbdb]" name="validLogin" class="tests.LoginTest"/>
+        <method signature="LoginTest.lockedUser()[pri:4, instance:tests.LoginTest@397fbdb]" name="lockedUser" class="tests.LoginTest"/>
+        <method signature="LoginTest.refreshLogin()[pri:5, instance:tests.LoginTest@397fbdb]" name="refreshLogin" class="tests.LoginTest"/>
+        <method signature="LoginTest.passwordMask()[pri:6, instance:tests.LoginTest@397fbdb]" name="passwordMask" class="tests.LoginTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="LoginTest.validLogin(java.lang.String)[pri:1, instance:tests.LoginTest@397fbdb]" name="validLogin" class="tests.LoginTest"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="LoginTest.validLogin(java.lang.String)[pri:1, instance:tests.LoginTest@397fbdb]" name="validLogin" class="tests.LoginTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2026-03-02T11:16:30 IST" name="temp" finished-at="2026-03-02T11:18:03 IST" duration-ms="92607">
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="set(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@397fbdb]" started-at="2026-03-02T11:16:31 IST" name="set" finished-at="2026-03-02T11:17:12 IST" duration-ms="41633" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Linux]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method is-config="true" signature="setupPage()[pri:0, instance:tests.LoginTest@397fbdb]" started-at="2026-03-02T11:17:12 IST" name="setupPage" finished-at="2026-03-02T11:17:12 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPage -->
+        <test-method signature="validLogin(java.lang.String)[pri:1, instance:tests.LoginTest@397fbdb]" started-at="2026-03-02T11:17:12 IST" name="validLogin" finished-at="2026-03-02T11:17:13 IST" duration-ms="893" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.LoginTest@397fbdb]" started-at="2026-03-02T11:17:13 IST" name="closeBrowser" finished-at="2026-03-02T11:17:15 IST" duration-ms="1683" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="set(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@397fbdb]" started-at="2026-03-02T11:17:15 IST" name="set" finished-at="2026-03-02T11:17:21 IST" duration-ms="6262" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Linux]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method is-config="true" signature="setupPage()[pri:0, instance:tests.LoginTest@397fbdb]" started-at="2026-03-02T11:17:21 IST" name="setupPage" finished-at="2026-03-02T11:17:21 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPage -->
+        <test-method signature="lockedUser()[pri:4, instance:tests.LoginTest@397fbdb]" started-at="2026-03-02T11:17:21 IST" name="lockedUser" finished-at="2026-03-02T11:17:22 IST" duration-ms="531" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lockedUser -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.LoginTest@397fbdb]" started-at="2026-03-02T11:17:22 IST" name="closeBrowser" finished-at="2026-03-02T11:17:23 IST" duration-ms="1192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="set(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@397fbdb]" started-at="2026-03-02T11:17:23 IST" name="set" finished-at="2026-03-02T11:17:31 IST" duration-ms="7655" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Linux]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method signature="refreshLogin()[pri:5, instance:tests.LoginTest@397fbdb]" started-at="2026-03-02T11:17:31 IST" name="refreshLogin" finished-at="2026-03-02T11:17:43 IST" duration-ms="12027" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refreshLogin -->
+        <test-method is-config="true" signature="setupPage()[pri:0, instance:tests.LoginTest@397fbdb]" started-at="2026-03-02T11:17:31 IST" name="setupPage" finished-at="2026-03-02T11:17:31 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPage -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.LoginTest@397fbdb]" started-at="2026-03-02T11:17:43 IST" name="closeBrowser" finished-at="2026-03-02T11:17:44 IST" duration-ms="1549" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="set(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@397fbdb]" started-at="2026-03-02T11:17:44 IST" name="set" finished-at="2026-03-02T11:17:51 IST" duration-ms="7043" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Linux]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method signature="passwordMask()[pri:6, instance:tests.LoginTest@397fbdb]" started-at="2026-03-02T11:17:51 IST" name="passwordMask" finished-at="2026-03-02T11:18:02 IST" duration-ms="10113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- passwordMask -->
+        <test-method is-config="true" signature="setupPage()[pri:0, instance:tests.LoginTest@397fbdb]" started-at="2026-03-02T11:17:51 IST" name="setupPage" finished-at="2026-03-02T11:17:51 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPage -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.LoginTest@397fbdb]" started-at="2026-03-02T11:18:02 IST" name="closeBrowser" finished-at="2026-03-02T11:18:03 IST" duration-ms="1531" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- tests.LoginTest -->
+    </test> <!-- temp -->
+  </suite> <!-- CrossBrowserSuite -->
+</testng-results>

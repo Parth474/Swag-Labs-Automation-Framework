@@ -1,0 +1,9 @@
+2026-03-02 11:17:13.109 [main] INFO  tests.LoginTest - validLogin test started...
+2026-03-02 11:17:13.327 [main] INFO  tests.LoginTest - Entering username and password
+2026-03-02 11:17:13.584 [main] INFO  tests.LoginTest - clicking login button
+2026-03-02 11:20:30.641 [main] INFO  tests.LoginTest - validLogin test started...
+2026-03-02 11:20:30.643 [main] INFO  tests.LoginTest - Entering username and password
+2026-03-02 11:20:30.847 [main] INFO  tests.LoginTest - clicking login button
+2026-03-02 11:32:03.220 [main] INFO  tests.LoginTest - validLogin test started...
+2026-03-02 11:32:03.228 [main] INFO  tests.LoginTest - Entering username and password
+2026-03-02 11:32:03.439 [main] INFO  tests.LoginTest - clicking login button

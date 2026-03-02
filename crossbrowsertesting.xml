@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="crossbrowsersuite" parallel="tests">
+  <listeners>
+  	<listener class-name="listner.Listner"/>
+  </listeners>
+  
+  <test name="ChromeTestWithStandard">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="os" value="window"/>
+    <parameter name="user" value="problem_user"/>
+  	<classes>
+  		<class name="tests.ProductCatalogTest"/>
+  		<class name="tests.CartTest"/>
+  		<class name="tests.LoginTest"/>
+  		<class name="tests.ProductPageTest"/>
+  		<class name="tests.CheckOutTest"/>
+  		<class name="tests.ValidEndToEndTest"/>
+  	</classes>
+  </test>
+  
+  <test name="ChromeTestWithProblem">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="os" value="window"/>
+    <parameter name="user" value="problem_user"/>
+  	<classes>
+  		<class name="tests.LoginTest"/>
+  		<class name="tests.ProductCatalogTest"/>
+  		<class name="tests.CartTest"/>
+  		<class name="tests.ProductPageTest"/>
+  		<class name="tests.CheckOutTest"/>
+  		<class name="tests.ValidEndToEndTest"/>
+  	</classes>
+  </test>
+  
+  <test name="EdgeTestWithStandard">
+    <parameter name="browser" value="edge"/>
+    <parameter name="os" value="window"/>
+    <parameter name="user" value="standard_user"/>
+  	<classes>
+  		<class name="tests.LoginTest"/>
+  		<class name="tests.ProductCatalogTest"/>
+  		<class name="tests.CartTest"/>
+  		<class name="tests.ProductPageTest"/>
+  		<class name="tests.CheckOutTest"/>
+  		<class name="tests.ValidEndToEndTest"/>
+  	</classes>
+  </test>
+  
+  <test name="EdgeTestWithProblem">
+    <parameter name="browser" value="edge"/>
+    <parameter name="os" value="window"/>
+    <parameter name="user" value="problem_user"/>
+  	<classes>
+  		<class name="tests.LoginTest"/>
+  		<class name="tests.ProductCatalogTest"/>
+  		<class name="tests.CartTest"/>
+  		<class name="tests.ProductPageTest"/>
+  		<class name="tests.CheckOutTest"/>
+  		<class name="tests.ValidEndToEndTest"/>
+  	</classes>
+  </test>
+</suite>
